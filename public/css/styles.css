@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #FCDCDF;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50;
+    color: #83d9dc;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Contenedor Principal */
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #FCDCDF;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección */
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 15px;
+    border-left: 5px solid #4CAF50;
+    padding-left: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+    position: relative;
+    padding-left: 20px;
+}
+
+/* Icono para cada elemento de lista */
+ul li:before {
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #333;
+    color: #83d9dc;
+    border-radius: 0 0 8px 8px;
+    font-size: 0.9em;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.4em;
+    }
+    
+    main {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 1.6em;
+    }
+
+    ul li {
+        font-size: 0.9em;
+    }
+}
